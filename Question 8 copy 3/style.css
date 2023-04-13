@@ -1,0 +1,83 @@
+body{
+    background-image: url('../Images copy/prettyspace.png');
+    background-size: cover;
+}
+
+            
+h3{
+    font-size: 30px;
+    position:absolute;
+    top:75px;
+    left:45%
+                
+ }
+table{
+    font-size: 30px;
+    position:absolute;
+    top:150px;
+    left:40%
+}
+
+.header{
+    align-items: center;
+    position:relative;
+    top:0;
+    height:300px;
+
+}
+
+.side_menu{
+    width:200px;
+    height:900px;
+    border-style: groove;
+    background-color: #f1f1f1;
+}
+.content{
+    background-color:rgba(241, 241, 241, 0.88);
+    height:500px;
+    border-style: groove;
+    position:absolute;
+    left: 210px;
+    top:308px;
+    height:900px;
+    right:0px;  
+}
+.login{
+    background-color:rgba(241, 241, 241, 0.88);
+    height:500px;
+    border-style: groove;
+    position:absolute;
+    left: 210px;
+    top:308px;
+    height:900px;
+    right:0px;  
+}
+.footer{
+    position: relative;
+    left:0px;
+    right:0px;
+    height:40px;
+    border-style: groove;
+}
+
+ul {
+  list-style-type: none;
+  padding: 5px;
+  margin: 0;
+  background-color: #f1f1f1;
+}
+
+li a {
+  font-size: 20px;
+  display: block;
+  color: #000;
+  padding: 15px 20px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+   

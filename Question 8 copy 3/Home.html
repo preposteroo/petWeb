@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>FurEver Home</title>
+        <meta charset="utf-8">
+        <script src="pet.js"></script>
+
+        <style> 
+
+        body{
+            background-image: url('../Images copy/prettyspace.png');
+            background-size: cover;
+        }
+        .about{
+            margin-left: 400px;
+            font-size: 35px;
+            }
+           
+        h3{
+            font-size: 30px;
+            position:absolute;
+            top:75px;
+            left:45%
+
+         }
+        table{
+            font-size: 30px;
+            position:absolute;
+            top:150px;
+            left:40%
+        }
+        pre{ 
+            font-family:serif;
+            padding-left: 250px;
+            padding-top: 40px;
+
+                    }
+
+        .header{
+            align-items: center;
+            position:relative;
+            top:0;
+            height:300px;
+
+        }
+         .doggy{
+             position: absolute;
+             top:100px;
+             left:20px;
+                
+            }
+
+        .side_menu{
+            width:200px;
+            height:500px;
+            border-style: groove;
+            background-color: #f1f1f1;
+        }
+        .content{
+            background-color:rgba(241, 241, 241, 0.88);
+            height:500px;
+            border-style: groove;
+            position:absolute;
+            left: 210px;
+            top:308px;
+            right:0px;  
+        }
+        .footer{
+            position: relative;
+            left:0px;
+            right:0px;
+            height:40px;
+            border-style: groove;
+        }
+
+        ul {
+          list-style-type: none;
+          padding: 5px;
+          margin: 0;
+          background-color: #f1f1f1;
+        }
+
+        li a {
+          font-size: 20px;
+          display: block;
+          color: #000;
+          padding: 15px 20px;
+          text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+          background-color: #555;
+          color: white;
+        }
+
+        </style>
+    </head>
+    <body onload="showTime()">
+    
+        <div class="header">
+            <div id="time"></div>
+            <h3>Adopt Now With</h3>
+            <table class="head">
+                <tr>
+                    <td><h2>FurEver Home</h2></td>
+               <td> <a href="Home.html"><img src="../Images copy/SpaceBean.png" alt="Space Cat" width=125></a>
+                   </td>
+                </tr>
+            </table>
+        </div>
+        
+        <div class="side_menu">
+            <ul>
+                <li><a href="Home.html">&#128062; Home</a></li>
+                <li><a href="create_account.php">&#128062; Create An Account</a></li>
+                <li><a href="Browse.html">&#128062; Browse Pets</a></li>
+                <li><a href="Find.php">&#128062; Find a Dog/Cat</a></li>
+                <li><a href="Dogcare.html">&#128062; Dog Care</a></li>
+                <li><a href="Catcare.html">&#128062; Cat Care</a></li>
+                <li><a href="give.php">&#128062; Have a Pet Who Needs A Home?</a></li>
+                 <li><a href="logout.php">&#128062;  LogOut</a></li>
+                <li><a href="contact.html">&#128062; Contact Us!</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <img class = doggy src="https://media4.giphy.com/media/l41YjZLZoQKXvs6ju/200w.webp?cid=ecf05e47h6s6x3agsaybmybwdgvq4d5dhj84nn7u749llbh9&rid=200w.webp&ct=s" alt="Dog with Tongue Out" width=220>
+            <h2 class="about">About Us</h2>
+            <pre>
+                FurEver Home is dedicated to using technology to help
+            cats and dogs find their homes. We hope to increase 
+            public awareness of the local pets who are just waiting 
+            to be adopted. Whether you're already a pet parent 
+            looking to expand your family or adopting for the first
+            time, FurEver Home makes adopting accessible to everyone. 
+            From the comfort of your own computer, you can search for
+            the pet that matches you best. 
+            
+                Have a pet who needs a new home? Fill out our simple form
+            and have it posted to our website. Need info on pet care?
+            Check out our pages on Dog and Cat Care. We're here to help,
+            don't hesitate to contact us!
+            
+                There are so many cats and dogs that are out of this world 
+            and searching for their FurEver Home:D
+            </pre>
+            
+        </div>
+        <div class="footer">
+            <a style="color:white" href="footer.html">Privacy/DisclaimerStatement/Image Credit</a>
+        </div>
+    </body>
+</html>
